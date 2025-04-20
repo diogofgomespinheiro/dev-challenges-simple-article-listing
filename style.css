@@ -26,6 +26,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding: 0 2.25rem;
   background: #f8fafc;
   color: #000000;
 }
@@ -69,7 +70,7 @@ main {
   width: 100%;
   max-width: 736px;
   margin: 0 auto;
-  padding: 2.625rem 2.25rem;
+  padding: 2.625rem 0;
 }
 
 .heading__title {
@@ -120,6 +121,6 @@ main {
   .article {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 }
